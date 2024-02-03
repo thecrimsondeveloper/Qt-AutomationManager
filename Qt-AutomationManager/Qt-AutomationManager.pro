@@ -10,10 +10,14 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    mouseaction.cpp \
+    useraction.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    mouseaction.h \
+    useraction.h
 
 FORMS += \
     mainwindow.ui
